@@ -30,6 +30,7 @@ print("hello python")
 list_a = [1,2,3]
 for item in list_a:
     print(item)
+print("ceshi senm")
 
 
 
