@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23f2ddf1-3b10-43ff-8bdb-43275ce4b3fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/py26_2019_12month/test_1223.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_2019_12month/test_1223.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_2019_12month/test_1225.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_2019_12month/test_1225.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/py26_2019_12month/test_1223.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="272">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -31,7 +29,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py26_2019_12month/test_1225.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
+            <state relative-caret-position="-1361">
               <caret line="16" selection-start-line="16" selection-start-column="2" selection-end-line="21" selection-end-column="107" />
             </state>
           </provider>
@@ -48,6 +46,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="049de2ed-412c-4481-8fb9-84ea3c1aa8bc" />
@@ -58,8 +59,8 @@
         <option value="$PROJECT_DIR$/py26_01day/test_01.py" />
         <option value="$PROJECT_DIR$/py26_2019_12month/test_01.py" />
         <option value="$PROJECT_DIR$/py26_2019_12month/test_02.py" />
-        <option value="$PROJECT_DIR$/py26_2019_12month/test_1223.py" />
         <option value="$PROJECT_DIR$/py26_2019_12month/test_1225.py" />
+        <option value="$PROJECT_DIR$/py26_2019_12month/test_1223.py" />
       </list>
     </option>
   </component>
@@ -98,7 +99,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -182,12 +183,27 @@
       <workItem from="1577113905691" duration="9000000" />
       <workItem from="1577160071089" duration="29297000" />
       <workItem from="1577422235283" duration="99000" />
-      <workItem from="1577426396837" duration="3459000" />
+      <workItem from="1577426396837" duration="6797000" />
     </task>
+    <task id="LOCAL-00001" summary="提交测试">
+      <created>1577438717240</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577438717240</updated>
+    </task>
+    <task id="LOCAL-00002" summary="提交测试">
+      <created>1577440060372</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577440060372</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51187000" />
+    <option name="totallyTimeSpent" value="54525000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -200,20 +216,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16823056" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16823056" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.305949" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.305949" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.24504249" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.31161472" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.6520509" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3286119" />
@@ -256,20 +271,21 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="提交测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交测试" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/py26_2019_12month/test_1225.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
+        <state relative-caret-position="-1361">
           <caret line="16" selection-start-line="16" selection-start-column="2" selection-end-line="21" selection-end-column="107" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/py26_2019_12month/test_1223.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="272">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
