@@ -8,13 +8,3 @@
 # ----------------------------------
 import random
 
-def phone_number():
-    for i in range(1):
-        top = "130"
-        for item in range(8):
-            number1 = str(random.randint(0, 9))
-            top += str(number1)
-        print(top)
-
-
-# phone_number()

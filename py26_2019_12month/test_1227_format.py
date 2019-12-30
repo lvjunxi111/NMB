@@ -3,7 +3,7 @@
 # @time      :2019/12/27 20:48
 # @Author    :LvJunXi
 # @Mail      :18912945952@163.com
-# @File      :test_1227.py
+# @File      :test_1227_format.py
 # @Software  :PyCharm
 
 # 使用*打印END字样
@@ -19,14 +19,14 @@ import random
 def digital_verification():
     number = 3
     while number > 0:
-        str1 = input("请输入一个正整数！偶数返回True,奇数返回False,您有{}次机会\n在这里输入>>>".format(number))
+        str1 = input("第一题：请输入一个正整数！偶数返回True,奇数返回False,您有{}次机会\n在这里输入>>>".format(number))
         if not str1.isdigit():  # 判断输入字符是否全为数字
             print("您输没有输入一个正整数！")
         else:
             print(int(str1) % 2 == 0)
             break
         number -= 1
-    print("体验结束！")
+    print("-----体验结束！-----")
 
 
 # digital_verification()
@@ -41,7 +41,7 @@ def payment_amount():
         try:
             # 异常处理price1 = round(float(price),2)
             # 判断输入的值是否可以转换成数值型，暂不区分正负数
-            price = input("请输入橘子单价,您有{}次机会\n在这里输入>>>".format(number))
+            price = input("第二题：请输入橘子单价,告诉你支付金额！！您有{}次机会\n在这里输入>>>".format(number))
             price1 = round(float(price), 2)
             number1 = random.random()
             number2 = random.randint(5, 9)
@@ -59,6 +59,8 @@ def payment_amount():
         finally:
             number -= 1
 
+    print("-----体验结束！-----")
+
 
 # payment_amount()
 
@@ -73,7 +75,18 @@ def phone_number():
         for item in range(8):
             number1 = str(random.randint(0, 9))
             top += str(number1)
-        print(top)
+        print(f"第三题：随机产生一个130开头手机号码：{top}")
+
+
+def phone_number1():
+    top = ["130"]
+    for item in range(8):
+        number1 = str(random.randint(0, 9))
+        top.append(number1)
+    return "".join(top)
+
+# for item in range(33):
+#     print(phone_number1())
 
 
 # phone_number()
@@ -86,29 +99,28 @@ str2 = str1.replace("PHP", "Python")
 # print(str2)
 # 要求二：替换以后，将字符串以空格为分割点进行分割得到一个列表
 str3 = str2.split(" ")
-
-
 # print(str3)
 
 # ------------------作业第五题------------------
 # 5、编写代码，提示用户输入1-7七个数字，分别代表周一到周日，打印输出“今天是周X”（要求：使用上课学过的知识点来做）
+
 
 def week():
     number = 3
     list1 = ["周一", "周二", "周三", "周四", "周五", "周六", "周日", ]
     list2 = ["1", "2", "3", "4", "5", "6", "7"]
     while number > 0:
-        str5 = input("请输入1-7之间的数字,您有{}次机会\n在这里输入>>>".format(number))
+        str5 = input("第五题：请输入1-7之间的数字,告诉你大写周几！！您有{}次机会\n在这里输入>>>".format(number))
         if str5 not in list2:
             print("您的输入有误！")
         else:
             print("今天{}".format(list1[int(str5) - 1]))
             break
         number -= 1
-    print("体验结束！")
+    print("-----体验结束！-----")
 
 # week()
-# 6、整理笔记
+# --------------整理笔记--------------
 
 # 字符串转义
 
@@ -131,22 +143,36 @@ def week():
 # print(str2.lower())  # 返回结果：abcdec123
 
 # format 格式化输出
-# s1 = "111{}22{}33".format([1,2])
+# {}占位符
+# {:<10}  左对齐10个字符；{:>10}  右对齐10个字符；{:^10}  居中10个字符；
+# s1 = "111{0:#>10.3f}2233".format(5)  # 用#填充
 # print(s1)
+# % 格式化输出
+# %f :浮点数；%d :整数 %s :万能
+# f/F 格式化输出
+# print(f"{'可是变量'}{'可是数字'}{'可数数字'}")
 
-
-
-
-#
-# 第一题
+# 数据类型转化  【略】
+# ===============================================
+#               我的作业
+# ===============================================
+# # ###########第一题 判断奇数偶数
 # digital_verification()
-# 第二题
+# # ##########第二题   随机取数（5-10）计算
 # payment_amount()
-# 第三题
+# # #########第三题解答1 [+] 随机生成130开头号码
 # phone_number()
-# 第五题
+# print("-----体验结束！-----")
+# # 第三题解答2 [join 拼接]
+# # num = 5 # 生成号码个数
+# # for item in range(num):
+# #      print(phone_number1())
+# # ##########第四题 字符串替换分割练习
+# print("第四题1小问题：将下面字符串的PHP替换为Python")
+# print(str1) # 原字符串
+# print(str2) # 替换后字符串
+# print("第四题2小问题：替换以后，将字符串以空格为分割点进行分割得到一个列表")
+# print(str3) # 分割 后字符串
+# print("-----体验结束！-----")
+# # ##########第五题 输入1-7，输出周一：周日
 # week()
-
-
-
-
