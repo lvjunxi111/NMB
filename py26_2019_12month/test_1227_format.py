@@ -7,7 +7,7 @@
 # @Software  :PyCharm
 
 # 使用*打印END字样
-# from py26_2019_12month.OutPut import print_end
+# from py26_2019_12month.output import print_end
 import random
 
 
@@ -85,6 +85,7 @@ def phone_number1():
         top.append(number1)
     return "".join(top)
 
+
 # for item in range(33):
 #     print(phone_number1())
 
@@ -99,6 +100,8 @@ str2 = str1.replace("PHP", "Python")
 # print(str2)
 # 要求二：替换以后，将字符串以空格为分割点进行分割得到一个列表
 str3 = str2.split(" ")
+
+
 # print(str3)
 
 # ------------------作业第五题------------------
@@ -150,7 +153,7 @@ def week():
 # % 格式化输出
 # %f :浮点数；%d :整数 %s :万能
 # f/F 格式化输出
-# print(f"{'可是变量'}{'可是数字'}{'可数数字'}")
+# print(f"{'可是变量'}{'可是数字'}{'可是字符串'}")
 
 # 数据类型转化  【略】
 # ===============================================

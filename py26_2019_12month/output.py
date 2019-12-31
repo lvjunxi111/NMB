@@ -3,7 +3,7 @@
 # @time      :2019/12/28 16:48
 # @Author    :LvJunXi
 # @Mail      :18912945952@163.com
-# @File      :OutPut.py
+# @File      :output.py
 # @Software  :PyCharm
 # ----------------------------------
 
