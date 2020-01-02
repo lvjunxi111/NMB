@@ -70,7 +70,7 @@ print("添加一个键值对", dict2)
 # 2 、 "111"
 # 3 、 ([11,22,33])
 # 4 、 {"aa":111}
-print("""不可变的是:(11),"111",([11,22,33]);可变的是：{"aa":111}""")
+print("""不可变的是:(11),"111";可变的是：{"aa":111},([11,22,33])""")
 # 6、请获取下面数据中的token，和reg_name
 data = {
     "code": 0,
@@ -116,7 +116,8 @@ list.remove([1, 2])  # 尾部添加列表
 list.reverse()  # 倒叙
 list.sort(reverse=True)  # 大小顺序排序
 dict["name"] = "LvJunXi"  # 添加键值对，key存在修改value
-dict.update({"age": 12, "gender": 1})  # 添加多个键值对
+dict.update({"age": 12, "gender": 1})  # 添加多个键值对【合并】
+dictMerged2 = dict( dict1, **dict2 ) # 合并dist1 和 dist2
 dict.popitem()  # 默认删除最后一个键值对
 dict.pop('key')  # 删除指定键值对
 tuple #元祖不能修改&删除单个值&添加    可以相加

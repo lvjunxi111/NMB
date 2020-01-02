@@ -42,7 +42,7 @@ def payment_amount():
             # 异常处理price1 = round(float(price),2)
             # 判断输入的值是否可以转换成数值型，暂不区分正负数
             price = input("第二题：请输入橘子单价,告诉你支付金额！！您有{}次机会\n在这里输入>>>".format(number))
-            price1 = round(float(price), 2)
+            price1 = round(float(price), 2) # 输入的字符不能转换成数值报错
             number1 = random.random()
             number2 = random.randint(5, 9)
             number3 = round(number1 + number2, 2)
