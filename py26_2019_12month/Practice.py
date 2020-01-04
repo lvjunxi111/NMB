@@ -6,4 +6,5 @@
 # @File      :Practice.py
 # @Software  :PyCharm
 # ----------------------------------
+import random
 
