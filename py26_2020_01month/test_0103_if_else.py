@@ -21,7 +21,7 @@ print(list(set(list1) - set1))
 number = float(input("想知道价格优惠，请输入购买金额！"))
 if number < 50:
     print(f"小于50元没有优惠，需支付原价:{number}")
-elif number < 100:
+elif number <= 100:
     print("九折优惠，原价{},现价{}".format(number, (number * 0.9)))
 else:
     print("八折优惠，原价{},现价{}".format(number, (number * 0.8)))
