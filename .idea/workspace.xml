@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="23f2ddf1-3b10-43ff-8bdb-43275ce4b3fd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_2020_01month/test_0103_if_else.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_2020_01month/test_0103_if_else.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,10 +13,10 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/NMB$test_1230_list.coverage" NAME="test_1230_list Coverage Results" MODIFIED="1577759045304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py26_2019_12month" />
     <SUITE FILE_PATH="coverage/NMB$test_01.coverage" NAME="test_01 Coverage Results" MODIFIED="1577283078108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py26_01day" />
-    <SUITE FILE_PATH="coverage/NMB$test_0106_debug.coverage" NAME="test_0106_debug Coverage Results" MODIFIED="1578361638294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py26_2020_01month" />
+    <SUITE FILE_PATH="coverage/NMB$test_0106_debug.coverage" NAME="test_0106_debug Coverage Results" MODIFIED="1578363219912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py26_2020_01month" />
     <SUITE FILE_PATH="coverage/NMB$11.coverage" NAME="11 Coverage Results" MODIFIED="1577763524582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py26_2019_12month" />
     <SUITE FILE_PATH="coverage/NMB$test_0103_if_else.coverage" NAME="test_0103_if_else Coverage Results" MODIFIED="1578068302486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py26_2020_01month" />
-    <SUITE FILE_PATH="coverage/NMB$Practice.coverage" NAME="Practice Coverage Results" MODIFIED="1578313757669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py26_2019_12month" />
+    <SUITE FILE_PATH="coverage/NMB$Practice.coverage" NAME="Practice Coverage Results" MODIFIED="1578461670741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py26_2019_12month" />
     <SUITE FILE_PATH="coverage/NMB$123.coverage" NAME="123 Coverage Results" MODIFIED="1577550628201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py26_2019_12month" />
     <SUITE FILE_PATH="coverage/NMB$OutPut.coverage" NAME="OutPut Coverage Results" MODIFIED="1577559564620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py26_2019_12month" />
     <SUITE FILE_PATH="coverage/NMB$test_1225.coverage" NAME="test_1225 Coverage Results" MODIFIED="1577438535172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py26_2019_12month" />
@@ -29,31 +28,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/py26_2019_12month/Practice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="239">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py26_2020_01month/test_0103_if_else.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/py26_2020_01month/test_0106_debug.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="20" column="25" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="20" selection-end-column="25" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/py26_2020_01month/test_0108_def.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -99,14 +85,15 @@
         <option value="$PROJECT_DIR$/py26_2019_12month/test_1227_format.py" />
         <option value="$PROJECT_DIR$/py26_2019_12month/test_1230_list_dict.py" />
         <option value="$PROJECT_DIR$/py26_2020_01month/test_0103.py" />
-        <option value="$PROJECT_DIR$/py26_2019_12month/Practice.py" />
         <option value="$PROJECT_DIR$/py26_2020_01month/test_0103_if_else.py" />
         <option value="$PROJECT_DIR$/py26_2020_01month/test_0106.py" />
         <option value="$PROJECT_DIR$/py26_2020_01month/test_0106_debug.py" />
+        <option value="$PROJECT_DIR$/py26_2019_12month/Practice.py" />
+        <option value="$PROJECT_DIR$/py26_2020_01month/test_0108_def.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="635" />
     <option name="width" value="1285" />
     <option name="height" value="1030" />
@@ -158,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_0106_debug">
+  <component name="RunManager" selected="Python.Practice">
     <configuration name="11" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NMB" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -271,8 +258,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_0106_debug" />
         <item itemvalue="Python.Practice" />
+        <item itemvalue="Python.test_0106_debug" />
         <item itemvalue="Python.test_0103_if_else" />
         <item itemvalue="Python.test_0103" />
         <item itemvalue="Python.11" />
@@ -304,7 +291,7 @@
       <workItem from="1577678132762" duration="39080000" />
       <workItem from="1577946273265" duration="15444000" />
       <workItem from="1578304565830" duration="82000" />
-      <workItem from="1578304681615" duration="14840000" />
+      <workItem from="1578304681615" duration="20745000" />
     </task>
     <task id="LOCAL-00001" summary="提交测试">
       <created>1577438717240</created>
@@ -369,11 +356,32 @@
       <option name="project" value="LOCAL" />
       <updated>1578125090677</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="日常提交">
+      <created>1578362840987</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1578362840987</updated>
+    </task>
+    <task id="LOCAL-00011" summary="日常提交">
+      <created>1578362885734</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1578362885734</updated>
+    </task>
+    <task id="LOCAL-00012" summary="日常提交">
+      <created>1578390064584</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1578390064584</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166833000" />
+    <option name="totallyTimeSpent" value="172738000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -385,23 +393,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="508" y="0" width="1028" height="824" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.14192708" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.21499014" />
       <window_info id="Structure" order="1" sideWeight="0.5010571" side_tool="true" weight="0.1461126" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49804688" visible="true" weight="0.44093406" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4986979" weight="0.39835164" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49802762" weight="0.44957983" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49802762" visible="true" weight="0.3977591" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49865952" weight="0.3101983" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5019531" side_tool="true" weight="0.32005495" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5019724" side_tool="true" weight="0.3977591" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3286119" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -571,13 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py26_2019_12month/Practice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../download/install/python/python37/Lib/urllib/parse.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -592,6 +593,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/py26_2020_01month/test_0106_debug.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/py26_2020_01month/test_0103_if_else.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -599,10 +607,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py26_2020_01month/test_0106_debug.py">
+    <entry file="file://$PROJECT_DIR$/py26_2020_01month/test_0108_def.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py26_2019_12month/Practice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="239">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>

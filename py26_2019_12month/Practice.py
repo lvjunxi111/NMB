@@ -17,3 +17,4 @@ def func_04(n):
         return func_04(n+1)*2+2
 
 print(func_04(7))
+print("1111")
