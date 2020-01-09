@@ -7,13 +7,8 @@
 # @Software  :PyCharm
 # ----------------------------------
 
+number1 = 12
+number2 =2
 
-def func_04(n):
-    # 递归解决猴子摘桃子总数问题，每天吃掉一半多一个。
-    if n == 10:
-        return 1
-    else:
-        return func_04(n + 1) * 2 + 2
-
-
+print(type((number1+number2)))
 
