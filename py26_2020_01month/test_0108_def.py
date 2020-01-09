@@ -19,7 +19,7 @@ def multiplication_table():
         print()  # 换行
 
 
-multiplication_table()
+# multiplication_table()
 
 # 2、有1 2 3 4 这四个数字，设计程序计算能组成多少个互不相同且无重复数字的3位数？分别是什么？
 def combination():
@@ -34,7 +34,7 @@ def combination():
     print("组成的数据为{}，\n 共计{}个。".format(list2,len(list2)))
 
 
-combination()
+# combination()
 
 
 # 3、通过函数实现一个计算器，运行程序分别提示用户输入数字1，数字2，然后再提示用户选择 ：
@@ -89,5 +89,5 @@ def register():
             break
 
 
-register()
+# register()
 
