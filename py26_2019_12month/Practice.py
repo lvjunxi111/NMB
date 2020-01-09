@@ -6,7 +6,7 @@
 # @File      :Practice.py
 # @Software  :PyCharm
 # ----------------------------------
-
+# 少时诵诗书所所所所所所所所所
 number1 = 12
 number2 =2
 
