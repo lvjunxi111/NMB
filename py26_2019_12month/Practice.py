@@ -6,11 +6,8 @@
 # @File      :Practice.py
 # @Software  :PyCharm
 # ----------------------------------
-# 少时诵诗书所所所所所所所所所
+#
 
 
-from decimal import Decimal
-a = 12.3455
-a1 = Decimal(a).quantize(Decimal("0.00"))
-print(a1)
+
 

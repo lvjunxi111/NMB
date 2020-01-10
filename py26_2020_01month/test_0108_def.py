@@ -31,10 +31,10 @@ def combination():
                 if a != b and b != c and a != c:  # 过滤3个数中出现重复情况
                     str2 = str(a) + str(b) + str(c)  # 多个字符使用加号拼接拼接
                     list2.append(str2)
-    print("组成的数据为{}，\n 共计{}个。".format(list2,len(list2)))
+    print("组成的数据为{} \n 共计{}个。".format(list2,len(list2)))
 
 
-# combination()
+combination()
 
 
 # 3、通过函数实现一个计算器，运行程序分别提示用户输入数字1，数字2，然后再提示用户选择 ：
