@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23f2ddf1-3b10-43ff-8bdb-43275ce4b3fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_2020_01month/test_0108_def.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_2020_01month/test_0108_def.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py26_2019_12month/Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_2019_12month/Practice.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +16,7 @@
     <SUITE FILE_PATH="coverage/NMB$test_0106_debug.coverage" NAME="test_0106_debug Coverage Results" MODIFIED="1578363219912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py26_2020_01month" />
     <SUITE FILE_PATH="coverage/NMB$11.coverage" NAME="11 Coverage Results" MODIFIED="1577763524582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py26_2019_12month" />
     <SUITE FILE_PATH="coverage/NMB$test_0103_if_else.coverage" NAME="test_0103_if_else Coverage Results" MODIFIED="1578068302486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py26_2020_01month" />
-    <SUITE FILE_PATH="coverage/NMB$Practice.coverage" NAME="Practice Coverage Results" MODIFIED="1578576752402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py26_2019_12month" />
+    <SUITE FILE_PATH="coverage/NMB$Practice.coverage" NAME="Practice Coverage Results" MODIFIED="1578626343429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py26_2019_12month" />
     <SUITE FILE_PATH="coverage/NMB$123.coverage" NAME="123 Coverage Results" MODIFIED="1577550628201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py26_2019_12month" />
     <SUITE FILE_PATH="coverage/NMB$OutPut.coverage" NAME="OutPut Coverage Results" MODIFIED="1577559564620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py26_2019_12month" />
     <SUITE FILE_PATH="coverage/NMB$test_1225.coverage" NAME="test_1225 Coverage Results" MODIFIED="1577438535172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py26_2019_12month" />
@@ -36,8 +35,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/py26_2019_12month/Practice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="338">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../download/install/python/python37/Lib/_pydecimal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1773">
+              <caret line="2531" column="26" selection-start-line="2531" selection-start-column="23" selection-end-line="2531" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -45,7 +53,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py26_2020_01month/test_0108_def.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-212">
+            <state relative-caret-position="-189">
               <caret line="44" selection-start-line="44" selection-end-line="60" />
             </state>
           </provider>
@@ -159,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_0108_def">
+  <component name="RunManager" selected="Python.Practice">
     <configuration name="Practice" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NMB" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -272,8 +280,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_0108_def" />
         <item itemvalue="Python.Practice" />
+        <item itemvalue="Python.test_0108_def" />
         <item itemvalue="Python.test_0106_debug" />
         <item itemvalue="Python.test_0103_if_else" />
         <item itemvalue="Python.test_0103" />
@@ -307,7 +315,7 @@
       <workItem from="1578304565830" duration="82000" />
       <workItem from="1578304681615" duration="23480000" />
       <workItem from="1578488994452" duration="17425000" />
-      <workItem from="1578549320264" duration="4179000" />
+      <workItem from="1578549320264" duration="7072000" />
     </task>
     <task id="LOCAL-00001" summary="提交测试">
       <created>1577438717240</created>
@@ -421,11 +429,18 @@
       <option name="project" value="LOCAL" />
       <updated>1578560573618</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="日常提交">
+      <created>1578578799720</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1578578799720</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197077000" />
+    <option name="totallyTimeSpent" value="199970000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -445,8 +460,8 @@
       <window_info id="Favorites" order="2" sideWeight="0.50274724" side_tool="true" weight="0.14192708" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49739584" weight="0.30494505" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49802762" visible="true" weight="0.39697802" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49739584" visible="true" weight="0.30494505" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49802762" weight="0.39697802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -667,15 +682,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/py26_2020_01month/test_0108_def.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-212">
+        <state relative-caret-position="-189">
           <caret line="44" selection-start-line="44" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../download/install/python/python37/Lib/_pydecimal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1773">
+          <caret line="2531" column="26" selection-start-line="2531" selection-start-column="23" selection-end-line="2531" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/py26_2019_12month/Practice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="338">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

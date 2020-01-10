@@ -7,8 +7,10 @@
 # @Software  :PyCharm
 # ----------------------------------
 # 少时诵诗书所所所所所所所所所
-number1 = 12
-number2 =2
 
-print(type((number1+number2)))
+
+from decimal import Decimal
+a = 12.3455
+a1 = Decimal(a).quantize(Decimal("0.00"))
+print(a1)
 
