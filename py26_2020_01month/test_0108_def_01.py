@@ -3,7 +3,7 @@
 # @time      :2020/1/7 17:39
 # @Author    :LvJunXi
 # @Mail      :18912945952@163.com
-# @File      :test_0108_def.py
+# @File      :test_0108_def_01.py
 # @Software  :PyCharm
 # ----------------------------------
 # 函数定义 def
@@ -34,7 +34,7 @@ def combination():
     print("组成的数据为{} \n 共计{}个。".format(list2,len(list2)))
 
 
-combination()
+# combination()
 
 
 # 3、通过函数实现一个计算器，运行程序分别提示用户输入数字1，数字2，然后再提示用户选择 ：
@@ -60,7 +60,7 @@ def calculation():
         return number1 / number2
 
 
-print(calculation())
+# print(calculation())
 
 # 4、实现一个注册的流程的函数，调用函数就执行下面要求功能
 # 基本要求：
