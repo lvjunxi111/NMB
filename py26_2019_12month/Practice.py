@@ -7,6 +7,15 @@
 # @Software  :PyCharm
 # ----------------------------------
 #
+def info(*args):
+    res = [] # 初始化空列表
+    for i in args[0]: # 遍历传值添加到初始化空列表，使用eval去除引号
+        res.append(eval(str(i)))
+    print("res = ", res)
+
+
+data = ["{'a':11,'b':2}", "[11,22,33,44]"]
+info(data)
 
 
 
