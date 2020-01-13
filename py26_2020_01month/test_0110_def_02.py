@@ -13,8 +13,8 @@ users_info = [['小明', 18, '男'], ["小李", 19, '男'], ["小美", 17, '女'
 # 要求：将上述数据转换为以下格式
 users = [{'name': '小明', 'age': 18, 'gender': '男'},
          {'name': '小李', 'age': 19, 'gender': '男'},
-         {'name': '小美', 'age': 17, 'gender': '女'}]
-""")
+         {'name': '小美', 'age': 17, 'gender': '女'}]""")
+
 
 def unpacking():
     users_title = ["name", "age", "gender"]
