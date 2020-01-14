@@ -84,8 +84,6 @@ def change_list_data():
 # 注册用户信息保存格式：{'username':'lvjunxi','password':'123456'};
 # 查看用户数据判断新增用户是否注册
 def get_data(username):
-    username = username
-    # password = password
     with open("2019_01_14_login.txt","r",encoding="utf8") as login_file:
         """读取文件，查看用户名是否存在，存在返回 True"""
         for name in login_file.readlines():
@@ -96,10 +94,9 @@ def get_data(username):
 
 # 向2019_01_14_login.文件追加注册用户信息
 def create_username(username,password):
-    username = username
-    password = password
     with open("2019_01_14_login.txt","a",encoding="utf8") as write_file:
         write_file.write(str({"username":username,"password":password})+";\n")
+
 
 # 注册入口
 def login():
@@ -119,6 +116,9 @@ def login():
                     print("注册完成！！！")
                 else:
                     print("输入的密码不一致！！！")
+        else:
+            print("退出程序！！！")
+            break
 
 
 # login()  #调用注册内容
