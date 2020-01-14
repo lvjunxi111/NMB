@@ -20,8 +20,8 @@ def unpacking():
     users_title = ["name", "age", "gender"]
     users_info = [['小明', 18, '男'], ["小李", 19, '男'], ["小美", 17, '女']]
     users = []
-    for item in range(len(users_title)):  # 遍历使用zip函数进行组合，users_info值有遍历次数改变
-        users.append(dict(zip(users_title, users_info[item])))
+    for item in users_info:  # 遍历使用zip函数进行组合，users_info值有遍历次数改变
+        users.append(dict(zip(users_title, item)))
     return users
 
 
@@ -86,6 +86,6 @@ is 判断变量是否一致""")
 
 # 内置函数
 # enumerate()  获取元素下标和值，使用for遍历 返回两个值的元祖
-# eval()    识别字符串中游有效python表达式
+# eval()    识别字符串中有效python表达式
 # zip()  聚合打包，最短决定
-# filter()
+# filter()  iterable  可迭代对象
