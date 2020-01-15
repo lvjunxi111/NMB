@@ -71,34 +71,40 @@ def change_list_data():
 # change_list_data()  # 调用函数
 
 # 第三题：总结笔记
-# read(size):读取文件前size个字节数据，无则读取所有数据
-# readline():每次读取文件1行内容，读取时占用内存小，比较适合大文件
-# readlines()方法读取整个文件所有行，保存在一个列表(list)变量中，每行作为一个元素，但读取大文件会比较占内存[遍历]
-# linecache()有特殊需求还可以用linecache模块，比如你要输出某个文件的第n行：/
-# 输出第2行  text = linecache.getline('a.txt',2)
+"""
+read(size):读取文件前size个字节数据，无则读取所有数据
+readline():每次读取文件1行内容，读取时占用内存小，比较适合大文件
+readlines()方法读取整个文件所有行，保存在一个列表(list)变量中，每行作为一个元素，但读取大文件会比较占内存[遍历]
+linecache()有特殊需求还可以用linecache模块，比如你要输出某个文件的第n行：/
+输出第2行  text = linecache.getline('a.txt',2)
 
+导入模块不在同一文件夹下，需要使用 form 根目录.子目录 import 函数名
+读取文件不在同一文件夹下
+Windows file = r"D:\lvjunxi\\NMB\file"   #r 转义字符
+linux   file = "/home/lvjunxi/file"
+"""
 # 第四题：扩展题（不要求提交，有时间的同学可以去思考一下）：
 # 之前作业写了一个注册的功能，再之前的功能上进行升级，
 # 要求：把所有注册成功的用户数据放到文件中进行保存，确保下一次运行代码的时候，上一次运行注册的账号数据还在。
 
-# 注册用户信息保存格式：{'username':'lvjunxi','password':'123456'};
-# 查看用户数据判断新增用户是否注册
+"""注册用户信息保存格式：{'username':'lvjunxi','password':'123456'};
+查看用户数据判断新增用户是否注册"""
 def get_data(username):
     with open("2019_01_14_login.txt","r",encoding="utf8") as login_file:
         """读取文件，查看用户名是否存在，存在返回 True"""
         for name in login_file.readlines():
-            # print(name)
-            a = eval(name.rstrip(";\n"))
-            if a.get('username') == username:
+            user = eval(name.rstrip(";\n"))
+            if user.get('username') == username:
                 return True
 
-# 向2019_01_14_login.文件追加注册用户信息
+
+"""向2019_01_14_login.文件追加注册用户信息"""
 def create_username(username,password):
     with open("2019_01_14_login.txt","a",encoding="utf8") as write_file:
         write_file.write(str({"username":username,"password":password})+";\n")
 
 
-# 注册入口
+"""注册入口"""
 def login():
     while True:
         username = input("请输入用户名(输入Q/q退出程序！)：")
@@ -121,5 +127,5 @@ def login():
             break
 
 
-# login()  #调用注册内容
+login()  #调用注册内容
 
