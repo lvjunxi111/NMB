@@ -89,43 +89,5 @@ linux   file = "/home/lvjunxi/file"
 
 """注册用户信息保存格式：{'username':'lvjunxi','password':'123456'};
 查看用户数据判断新增用户是否注册"""
-def get_data(username):
-    with open("2019_01_14_login.txt","r",encoding="utf8") as login_file:
-        """读取文件，查看用户名是否存在，存在返回 True"""
-        for name in login_file.readlines():
-            user = eval(name.rstrip(";\n"))
-            if user.get('username') == username:
-                return True
 
-
-"""向2019_01_14_login.文件追加注册用户信息"""
-def create_username(username,password):
-    with open("2019_01_14_login.txt","a",encoding="utf8") as write_file:
-        write_file.write(str({"username":username,"password":password})+";\n")
-
-
-"""注册入口"""
-def login():
-    while True:
-        username = input("请输入用户名(输入Q/q退出程序！)：")
-        if username.upper() != "Q":
-            password1 = input("请输入密码：")
-            password2 = input("请再次确认密码！")
-
-            """调用get_data()查看用户是否注册，未注册且密码一致时调用create_username()"""
-            if str(get_data(username))=="True":
-                print("该用户已注册！！！")
-            else:
-                if password1 == password2:
-                    print("注册中。。。")
-                    create_username(username, password1)
-                    print("注册完成！！！")
-                else:
-                    print("输入的密码不一致！！！")
-        else:
-            print("退出程序！！！")
-            break
-
-
-login()  #调用注册内容
 

@@ -7,7 +7,8 @@
 # @Software  :PyCharm
 # ----------------------------------
 #
-import json
+import os
+
 # 写入
 # numbers = [2, 3, 5, 7, 11, 13]
 # filename = 'numbers.json'
@@ -18,16 +19,4 @@ import json
 # with open(filename) as f_obj:
 #     numbers = json.load(f_obj)
 #     print(numbers)
-
-
-def pr(a):
-    """ 这是个"""
-    if a == 1:
-        pass
-    else:
-        pass
-
-
-
-
-
+int("d")
