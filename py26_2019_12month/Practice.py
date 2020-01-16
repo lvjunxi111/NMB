@@ -19,4 +19,6 @@ import os
 # with open(filename) as f_obj:
 #     numbers = json.load(f_obj)
 #     print(numbers)
-int("d")
+os.chdir("..")
+print(os.getcwd())
+a =1

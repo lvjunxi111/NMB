@@ -6,7 +6,8 @@
 # @File      :test_0115_os_try.py
 # @Software  :PyCharm
 # ----------------------------------
-import os,random
+import os
+import random
 
 
 # 1、实现一个文件复制器函数，通过给函数传入一个路径，复制该路径下面所有的文件(目录不用复制)到当前目录，
@@ -28,7 +29,7 @@ def copy_files(filepath):
             if os.path.isfile(file):
                 with open(file, "rb") as copy_file:
                     readfile = copy_file.read()
-                save_file_path = os.path.join(os.getcwd(), item)
+                save_file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), item)
                 with open(save_file_path, "wb") as save_file:
                     save_file.write(readfile)
     finally:
@@ -36,7 +37,7 @@ def copy_files(filepath):
 
 
 path = "D:\\work"
-# copy_files(path)
+copy_files(path)
 
 # 第二题2、改善上节课扩展作业的注册程序，打开文件的读取数据的时候，如果文件不存在会报错，
 #         请通过try - except来捕获这个错误，进行处理，让注册程序可以继续运行。
@@ -125,6 +126,27 @@ def a_came_about_love():
         finally:
             pass
 
-
-a_came_about_love()  #三角恋
+# a_came_about_love()  # 三角恋(剪刀石头布)
 # 第四题：整理笔记
+#  待整理
+
+
+"""
+os.path.dirname:获取 给定文件路径 所在的目录路径（获取父级目录）
+os.path.join:用来进行路径拼接的模块
+os.path.abspath:获取绝对路径
+获取当前文件的路径:path = __file__
+print("当前文件的路径：", path)
+获取当前文件所在的目录路径:os.path.dirname(path)
+# 切换路径：cd
+# os.chdir("../../..")
+# print(os.getcwd()) 这是获取当时操作后路径
+
+
+# linux下的绝对路径表示
+print(__file__)
+# 获取当前操作系统下的绝对路径表示方式
+print(os.path.abspath(__file__))
+# 后面项目实战中获取项目绝对路径的方式
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+"""
