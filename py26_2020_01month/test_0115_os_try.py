@@ -103,7 +103,7 @@ def a_came_about_love():
         random1 = random.randint(1, 3)
         list5 = ["空", "石头", "剪刀", "布", "退出"]
         try:
-            number5 = int(input("出招吧！！"))
+            number5 = int(input("奥利给！出招吧>>>"))
         except ValueError:
             print("仔细点，您只能输入1-4之间的整数！")
         else:
