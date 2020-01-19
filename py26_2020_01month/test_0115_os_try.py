@@ -21,7 +21,9 @@ def copy_files(filepath):
         file_list = os.listdir(filepath)
     except FileNotFoundError:
         """当路径不存在时，友善提示"""
-        print(filepath, "路径不存在，请检查输入路径重新操作！")
+        print(filepath, "路径不存在，请检查输入路径重新输入！")
+    except NotADirectoryError:
+        print(filepath,"不是目录，请检查输入路径重新输入！")
     else:
         for item in file_list:
             file = os.path.join(filepath, item)
@@ -36,8 +38,8 @@ def copy_files(filepath):
         pass
 
 
-path = "D:\\work"
-copy_files(path)
+path = "D:\work1"
+# copy_files(path)
 
 # 第二题2、改善上节课扩展作业的注册程序，打开文件的读取数据的时候，如果文件不存在会报错，
 #         请通过try - except来捕获这个错误，进行处理，让注册程序可以继续运行。
@@ -149,4 +151,13 @@ print(__file__)
 print(os.path.abspath(__file__))
 # 后面项目实战中获取项目绝对路径的方式
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+try:
+    可能出现错误的部分
+except 错误类型 as error:# 错误内容赋值给error
+    报错后执行部分，error
+else：
+    try正常执行完执行内容
+finally:
+    一定会执行的内容
 """
