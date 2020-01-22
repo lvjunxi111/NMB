@@ -51,25 +51,25 @@ class Student:
     def total_fraction(self):
         """ 计算语数外总分"""
         total = (self.english + self.mathematics + self.chinese)
-        print("语数外总分为：{}".format(total))
+        return "语数外总分为：{}".format(total)
 
     def average_fraction(self):
         """ 计算语数外平均分"""
         average = (self.english + self.mathematics + self.chinese) / 3
-        print("语数外平均分为：{:.2f}".format(average))
+        return "语数外平均分为：{:.2f}".format(average)
 
     def print_information(self):
         """打印学生个人信息"""
-        print("我的名字叫：{}，年龄：{}，性别：{}。".format(self.name, self.age, self.gender))
+        return "我的名字叫：{}，年龄：{}，性别：{}。".format(self.name, self.age, self.gender)
 
 
 student_1 = Student("吕军喜", 18, "男", 11, 22, 33)
 """创建对象 student_1"""
 
-student_1.total_fraction()
-student_1.average_fraction()
-student_1.print_information()
-
+a = student_1.total_fraction()
+b = student_1.average_fraction()
+c = student_1.print_information()
+print(a,b,c)
 
 """
 类用于封装属性和方法

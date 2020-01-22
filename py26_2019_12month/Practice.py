@@ -7,21 +7,18 @@
 # @Software  :PyCharm
 # ----------------------------------
 #
-import os
 
-# 写入
-# numbers = [2, 3, 5, 7, 11, 13]
-# filename = 'numbers.json'
-# with open(filename, 'w') as f_obj:
-#     json.dump(numbers, f_obj)
-# 读取
-# filename = 'numbers.json'
-# with open(filename) as f_obj:
-#     numbers = json.load(f_obj)
-#     print(numbers)
-a = "{name}"
-b = a.format(name="s")
-# print(b)
-filepath = "D:\work\沙滩.jpg"
-file_list = os.listdir(filepath)
-print(file_list)
+
+
+
+"""
+Warrior()战士
+Master()法师
+"""
+
+# man_2 = Master("lv", "20", "888")
+# man_2.master_attack()
+
+
+
+

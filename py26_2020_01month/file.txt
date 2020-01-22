@@ -1,0 +1,7 @@
+d:\download\install\python\python37\python.exe d:/nmb/py26_2020_01month/test_0120_class_02.py
+traceback (most recent call last):
+  file "d:/nmb/py26_2020_01month/test_0120_class_02.py", line 125, in <module>
+    toggle_case("file.txt")
+  file "d:/nmb/py26_2020_01month/test_0120_class_02.py", line 119, in toggle_case
+    file_data = st(file_data).lower()
+nameerror: name 'st' is not defined
