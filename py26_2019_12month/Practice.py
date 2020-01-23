@@ -10,15 +10,3 @@
 
 
 
-
-"""
-Warrior()战士
-Master()法师
-"""
-
-# man_2 = Master("lv", "20", "888")
-# man_2.master_attack()
-
-
-
-

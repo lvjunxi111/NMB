@@ -86,7 +86,7 @@ def grade_down():
         number_2 = int(input("请输入第二个数字！"))
         number_3 = int(input("请输入第三个数字！"))
     except ValueError as error:
-        print("请输入整数！！！")
+        print("请输入整数！！！", error)
     else:
         number_list = [number_1, number_2, number_3]
         number_list.sort(reverse=True)
@@ -100,11 +100,11 @@ def grade_down():
 # 4、编写一个程序，使用for循环输出0 - 100之间的偶数
 def even_num():
     """计算0到100偶数和，思路：对2趋于等于0为偶数，遍历100内偶数相加"""
-    num = 0
+    number_num = 0
     for number in range(101):
         if number % 2 == 0:
-            num += number
-    return num
+            number_num += number
+    return number_num
 
 
 # print(even_num())     # 调用求100内偶数和函数
@@ -140,13 +140,13 @@ def pay_book():
     book_c = 0.5
     money = 100
     number = 100
-    sum = 0
+    book_sum = 0
     for a in range(int(money / book_a)):
         for b in range(int(money / book_b)):
             for c in range(int(money / book_c)):
                 if a + b + c == number and a * book_a + b * book_b + c * book_c == money:
-                    sum += 1
-    return "有{}种购买方式。".format(sum)
+                    book_sum += 1
+    return "有{}种购买方式。".format(book_sum)
 
 
 # print(pay_book())   # 调用函数
@@ -184,21 +184,19 @@ def num(number):
 def test_zip(cases):
     """按照给定格式使用zip打包函数转换为字典集列表"""
     list_9 = []
-    for zip_val in range(1, len(cases_1)):
-        case = dict(zip(cases_1[0], cases_1[zip_val]))
+    for zip_val in range(1, len(cases)):
+        case = dict(zip(cases[0], cases[zip_val]))
         list_9.append(case)
     print(list_9)
 
 
-cases_1 = [['case_id', 'case_title', 'url', 'data', 'excepted'],
-           [1, '用例1', 'www.baudi.com', '001', 'ok'],
-           [2, '用例2', 'www.baudi.com', '002', 'ok'],
-           [3, '用例3', 'www.baudi.com', '002', 'ok'],
-           [4, '用例4', 'www.baudi.com', '002', 'ok'],
-           [5, '用例5', 'www.baudi.com', '002', 'ok'], ]
+list_09 = [['case_id', 'case_title', 'url', 'data', 'excepted'], [1, '用例1', 'www.bai.com', '001', 'ok'],
+           [2, '用例2', 'www.bai.com', '002', 'ok'], [3, '用例3', 'www.bai.com', '002', 'ok'],
+           [4, '用例4', 'www.bai.com', '002', 'ok'], [5, '用例5', 'www.bai.com', '002', 'ok'], ]
 
 
-# test_zip(cases_1) # 调用函数
+# test_zip(list_09)  # 调用函数
+
 
 # 10、题目：企业发放的奖金根据利润提成。
 # 利润(I)低于或等于10万元时，奖金可提10 %； 1
@@ -272,7 +270,7 @@ def choose_drink():
         try:
             drink = int(input("余额{}，请选择购买的饮料,退钱请按[0],投币请按[9]".format(sum_money)))
         except ValueError as error:
-            print("您的输入有误，请重新输入！！！")
+            print("您的输入有误，请重新输入！！！", error)
         else:
 
             # 输入0退还金额，购物结束！
