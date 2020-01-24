@@ -304,7 +304,7 @@ def choose_drink():
 # 属性：姓名、年龄、性别、授课科目、授课班级（list类型，可以保存多个班级）
 # 方法： 添加授课班级 、 打印老师的信息
 class Teacher:
-    def __init__(self, name, age, gender, course,classes):
+    def __init__(self, name, age, gender, course, classes):
         self.name = name
         self.age = age
         self.gender = gender
@@ -312,14 +312,13 @@ class Teacher:
         self.classes = classes
 
     # 添加授课班级
-    def insert_class(self,classes):
+    def insert_class(self, classes):
         self.classes.append(classes)
 
     # 打印老师的信息
     def print_information(self):
         print("打印教师信息>>姓名：{}，年龄：{}，性别：{}。"
               .format(self.name, self.age, self.gender))
-
 
 
 # 13、类和继承
