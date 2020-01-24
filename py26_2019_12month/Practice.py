@@ -6,7 +6,19 @@
 # @File      :Practice.py
 # @Software  :PyCharm
 # ----------------------------------
-#
+
+
+class A:
+    def __init__(self,name,age,gender,course,classes):
+        self.name = name
+        self.age = age
+        self.gender = gender
+        self.course = course
+        self.classes = classes
+
+    def add(self,classes):
+        self.classes.append(classes)
+        print(classes)
 
 
 

@@ -26,12 +26,12 @@
 # 9、在使用异常时必须先导入exceptions模块。（×）
 # 10、一个try语句只能对应一个except子句。（×）
 # 11、所有的except子句一定在else和ﬁnally的前面。（√）
-# 12、类方法的第一个参数为self(√)
+# 12、类方法的第一个参数为self(×)
 # 13、对象不能调用类方法 （×）
 # --------------------三、选择题----------------------------
-# 1.下列选项中，（A,B,C）的布尔值不是Flase。
+# 1.下列选项中，（D）的布尔值不是Flase。
 # A.None    B.0     C.()    D.1
-# 2.下列标识符中，合法的是（A,D）
+# 2.下列标识符中，合法的是（A）
 # A.helloWorld  B.2ndObj    C.hello#world   D._helloworld
 # 3.字符串'Hi,Andy'中，字符'A'对应的下标位置为（C）。
 # A.1   B.2     C.3     D.4
@@ -70,12 +70,14 @@ def login():
 
 def inversion(str_1="hello xiao mi"):
     """输入一个句子，根据空格倒序输出"""
-    str_1.split().reverse()
-    return str_1
+    str_list = str_1.split()  # 根据空格分隔为列表
+    str_list.reverse()  # 将列表反转
+    res = " ".join(str_list)  # 使用空格拼接起来
+    return res
 
 
 # input_str = input("请输入由空格拼接的语句！！！")
-# print(inversion(input_str))
+# print(inversion())
 
 # 3、运行程序，提示用户依次输入三个整数x, y, z，请把这三个数由小到大输出。
 
@@ -99,15 +101,13 @@ def grade_down():
 # grade_down()  # 调用函数
 # 4、编写一个程序，使用for循环输出0 - 100之间的偶数
 def even_num():
-    """计算0到100偶数和，思路：对2趋于等于0为偶数，遍历100内偶数相加"""
     number_num = 0
     for number in range(101):
         if number % 2 == 0:
-            number_num += number
-    return number_num
+            print(number)
 
 
-# print(even_num())     # 调用求100内偶数和函数
+# even_num()
 # 5、打开一个文本文件，读取其内容，把其中的大写字母修改为小写字母，再写入文件覆盖原内容
 
 
@@ -115,9 +115,9 @@ def toggle_case(file):
     """读取文件内容并将字母转换为小写,再将转换后信息存入原文件中"""
     with open(file, 'r', encoding='utf8') as copy_file:
         file_data = copy_file.read()
-        file_data = str(file_data).lower()
+        new_file_data = str(file_data).lower()
     with open(file, 'w', encoding='utf8') as info_file:
-        info_file.write(file_data)
+        info_file.write(new_file_data)
 
 
 # toggle_case("file.txt")
@@ -304,28 +304,23 @@ def choose_drink():
 # 属性：姓名、年龄、性别、授课科目、授课班级（list类型，可以保存多个班级）
 # 方法： 添加授课班级 、 打印老师的信息
 class Teacher:
-    def __init__(self, name, age, gender, course, *args):
+    def __init__(self, name, age, gender, course,classes):
         self.name = name
         self.age = age
         self.gender = gender
         self.course = course
-        self.args = args
+        self.classes = classes
 
-    # 添加授课班级【不太清楚要做什么】
-    def insert_class(self):
-        list_class = []
-        list_class.extend(self.args)
-        print(list_class)
+    # 添加授课班级
+    def insert_class(self,classes):
+        self.classes.append(classes)
 
     # 打印老师的信息
     def print_information(self):
-        print("打印教师信息>>姓名：{}，年龄：{}，性别：{}，科目：{}，班级：{}。"
-              .format(self.name, self.age, self.gender, self.course, list(self.args)))
+        print("打印教师信息>>姓名：{}，年龄：{}，性别：{}。"
+              .format(self.name, self.age, self.gender))
 
 
-# teacher = Teacher("吕军喜", 18, "男", "语文", "1班", "2班", "3班")
-# teacher.insert_class()
-# teacher.print_information()
 
 # 13、类和继承
 # 要求一：定义一个游戏英雄类（Hero）
