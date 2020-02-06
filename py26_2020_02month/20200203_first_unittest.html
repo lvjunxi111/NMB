@@ -116,18 +116,18 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">接口测试报告</h1>
 <p class='attribute'><strong>测试人员 : </strong> LvJunXi</p>
-<p class='attribute'><strong>开始时间 : </strong> 2020-02-06 19:48:58</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.002993</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 7，通过 4，失败 3，通过率= 57.14%</p>
+<p class='attribute'><strong>开始时间 : </strong> 2020-02-06 20:21:48</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.000997</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 7，通过 7，通过率= 100.00%</p>
 
 <p class='description'>2020年第一份接口测试报告</p>
 </div>
 
 
 <p id='show_detail_line'>
-<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 57.14% }</a>
-<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 3 }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 4 }</a>
+<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 100.00% }</a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 7 }</a>
 <a class="btn btn-info" href='javascript:showCase(3)'>所有{ 7 }</a>
 </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
@@ -148,11 +148,11 @@ function html_escape(s) {
     <td>详细</td>
 </tr>
 
-<tr class='failClass warning'>
+<tr class='passClass warning'>
     <td>py26_2020_02month.test_0203_unittest_testcases.RegisterTest</td>
     <td class="text-center">7</td>
-    <td class="text-center">4</td>
-    <td class="text-center">3</td>
+    <td class="text-center">7</td>
+    <td class="text-center">0</td>
     <td class="text-center">0</td>
     <td class="text-center"><a href="javascript:showClassDetail('c1',7)" class="detail" id='c1'>详细</a></td>
 </tr>
@@ -172,80 +172,19 @@ function html_escape(s) {
     <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
 </tr>
 
-<tr id='ft1_4' class='none'>
-    <td class='failCase'><div class='testcase'>test_pwd_different: 两次密码不一致</div></td>
-    <td colspan='5' align='center'>
-    <!--默认收起错误信息 -Findyou
-    <button id='btn_ft1_4' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_4'>失败</button>
-    <div id='div_ft1_4' class="collapse">  -->
-    <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_ft1_4' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_4'>失败</button>
-    <div id='div_ft1_4' class="collapse in" align="left">
-    <pre>
-    
-ft1_4: Traceback (most recent call last):
-  File "D:\NMB\py26_2020_02month\test_0203_unittest_testcases.py", line 55, in test_pwd_different
-    self.assertEqual(expect, res)
-AssertionError: {'code': 0, 'msg': '两次密码不一致'} != {'code': 0, 'msg': '该账户已存在'}
-- {'code': 0, 'msg': '两次密码不一致'}
-?                     ^^^^^^^
-
-+ {'code': 0, 'msg': '该账户已存在'}
-?                     ^^^^^^
-
-
-
-    </pre>
-    </div>
-    </td>
+<tr id='pt1_4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_pwd_different: 两次密码不一致</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
 </tr>
 
-<tr id='ft1_5' class='none'>
-    <td class='failCase'><div class='testcase'>test_pwd_greater_18: 密码大于18位</div></td>
-    <td colspan='5' align='center'>
-    <!--默认收起错误信息 -Findyou
-    <button id='btn_ft1_5' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_5'>失败</button>
-    <div id='div_ft1_5' class="collapse">  -->
-    <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_ft1_5' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_5'>失败</button>
-    <div id='div_ft1_5' class="collapse in" align="left">
-    <pre>
-    
-ft1_5: Traceback (most recent call last):
-  File "D:\NMB\py26_2020_02month\test_0203_unittest_testcases.py", line 85, in test_pwd_greater_18
-    self.assertEqual(expect, res)
-AssertionError: {'code': 0, 'msg': '账号和密码必须在6-18位之间'} != {'code': 0, 'msg': '该账户已存在'}
-- {'code': 0, 'msg': '账号和密码必须在6-18位之间'}
-+ {'code': 0, 'msg': '该账户已存在'}
-
-
-    </pre>
-    </div>
-    </td>
+<tr id='pt1_5' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_pwd_greater_18: 密码大于18位</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
 </tr>
 
-<tr id='ft1_6' class='none'>
-    <td class='failCase'><div class='testcase'>test_pwd_lass_6: 密码小于6位</div></td>
-    <td colspan='5' align='center'>
-    <!--默认收起错误信息 -Findyou
-    <button id='btn_ft1_6' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_6'>失败</button>
-    <div id='div_ft1_6' class="collapse">  -->
-    <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_ft1_6' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_6'>失败</button>
-    <div id='div_ft1_6' class="collapse in" align="left">
-    <pre>
-    
-ft1_6: Traceback (most recent call last):
-  File "D:\NMB\py26_2020_02month\test_0203_unittest_testcases.py", line 75, in test_pwd_lass_6
-    self.assertEqual(expect, res)
-AssertionError: {'code': 0, 'msg': '账号和密码必须在6-18位之间'} != {'code': 0, 'msg': '该账户已存在'}
-- {'code': 0, 'msg': '账号和密码必须在6-18位之间'}
-+ {'code': 0, 'msg': '该账户已存在'}
-
-
-    </pre>
-    </div>
-    </td>
+<tr id='pt1_6' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_pwd_lass_6: 密码小于6位</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
 </tr>
 
 <tr id='pt1_7' class='hiddenRow'>
@@ -256,10 +195,10 @@ AssertionError: {'code': 0, 'msg': '账号和密码必须在6-18位之间'} != {
 <tr id='total_row' class="text-center active">
     <td>总计</td>
     <td>7</td>
-    <td>4</td>
-    <td>3</td>
+    <td>7</td>
     <td>0</td>
-    <td>通过率：57.14%</td>
+    <td>0</td>
+    <td>通过率：100.00%</td>
 </tr>
 </table>
 
