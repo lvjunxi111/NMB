@@ -7,8 +7,7 @@
 # @Software  :PyCharm
 # ----------------------------------
 import unittest
-
-from py26_2020_02month.test_0203_unittest_register import register
+from py26_2020_02month.test_0203_unittest.test_0203_unittest_register import register
 
 
 class RegisterTest(unittest.TestCase):
