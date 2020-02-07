@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="23f2ddf1-3b10-43ff-8bdb-43275ce4b3fd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_2020_02month/0203_unittest/20200203_first_unittest.html" beforeDir="false" afterPath="$PROJECT_DIR$/py26_2020_02month/test_0203_unittest/20200203_first_unittest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_2020_02month/0203_unittest/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/py26_2020_02month/test_0203_unittest/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_2020_02month/0203_unittest/test_0203_unittest_note.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_2020_02month/test_0203_unittest/test_0203_unittest_note.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_2020_02month/0203_unittest/test_0203_unittest_register.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_2020_02month/test_0203_unittest/test_0203_unittest_register.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_2020_02month/0203_unittest/test_0203_unittest_suite.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_2020_02month/test_0203_unittest/test_0203_unittest_run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_2020_02month/0203_unittest/test_0203_unittest_testcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_2020_02month/test_0203_unittest/test_0203_unittest_testcases.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_2020_02month/0205_openpyxl/cases.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/py26_2020_02month/test_0205_openpyxl/cases.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py26_2020_02month/0205_openpyxl/test_0205_openpyxl_note.py" beforeDir="false" afterPath="$PROJECT_DIR$/py26_2020_02month/test_0205_openpyxl/test_0205_openpyxl_note.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/py26_2020_02month/test_0205_openpyxl/test_0205_openpyxl_work.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="345">
+              <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -373,7 +365,7 @@
       <workItem from="1579875519274" duration="5730000" />
       <workItem from="1580643497166" duration="1583000" />
       <workItem from="1580734970421" duration="2176000" />
-      <workItem from="1580966294143" duration="37191000" />
+      <workItem from="1580966294143" duration="37736000" />
     </task>
     <task id="LOCAL-00001" summary="提交测试">
       <created>1577438717240</created>
@@ -606,7 +598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581044046787</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="日常提交">
+      <created>1581062202281</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1581062202281</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -642,7 +641,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="404165000" />
+    <option name="totallyTimeSpent" value="404710000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -655,6 +654,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-180" width="2062" height="1126" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49426934" visible="true" weight="0.15269461" />
       <window_info id="Structure" order="1" sideWeight="0.5057307" side_tool="true" weight="0.17018181" />
@@ -1105,8 +1105,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/py26_2020_02month/test_0205_openpyxl/test_0205_openpyxl_work.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="345">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
         </state>
       </provider>
     </entry>
